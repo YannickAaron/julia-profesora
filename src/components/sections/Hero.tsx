@@ -1,11 +1,11 @@
-import juliaImg from '../../assets/julia.png';
+import juliaImg from '../../assets/julia.webp';
 import { FallingOranges } from '../FallingOranges';
 import { HandUnderline } from '../HandUnderline';
 import { Reveal } from '../Reveal';
 import { EleBadge } from '../EleBadge';
 import type { T } from '../../i18n';
 
-// TODO: replace assets/julia.png with a real photo of Julia
+// TODO: replace assets/julia.webp with a real photo of Julia
 export function Hero({ t }: { t: T }) {
   return (
     <section className="hero">

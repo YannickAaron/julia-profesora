@@ -1,4 +1,4 @@
-import juliaImg from '../../assets/julia.png';
+import juliaImg from '../../assets/julia.webp';
 import zamoraImg from '../../assets/Zamora.webp';
 import valenciaImg from '../../assets/Valencia.webp';
 import { Reveal } from '../Reveal';

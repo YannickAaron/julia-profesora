@@ -8,6 +8,7 @@ import { Levels } from './components/sections/Levels';
 import { Certifications } from './components/sections/Certifications';
 import { Story } from './components/sections/Story';
 import { FirstClass } from './components/sections/FirstClass';
+import { HowLessonUnfolds } from './components/sections/HowLessonUnfolds';
 import { Pricing } from './components/sections/Pricing';
 import { Testimonials } from './components/sections/Testimonials';
 import { Faq } from './components/sections/Faq';
@@ -32,6 +33,7 @@ export default function App() {
       <Certifications t={t} />
       <Story t={t} />
       <FirstClass t={t} />
+      <HowLessonUnfolds t={t} />
       <Pricing t={t} />
       <Testimonials t={t} />
       <Faq t={t} />

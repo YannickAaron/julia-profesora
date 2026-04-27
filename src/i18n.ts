@@ -106,6 +106,22 @@ const en = {
   story_caption_2: "naranjos · Valencia",
   story_caption_3: "Zamora",
 
+  recipe_kicker: "How a lesson unfolds",
+  recipe_title_1: "A lesson, peeled",
+  recipe_title_2: "layer by layer.",
+  recipe_title_3: "",
+  recipe_intro:
+    "Every class follows the same recipe — but the ingredients change to fit what you need that week. Tap a layer to peel it back.",
+  recipe_card_title: "Receta · una clase",
+  recipe_card_meta: "PORCIONES: 1 · TIEMPO: 60 min",
+  recipe_layers: [
+    { n: "01", mins: "5 min", title: "La piel", sub: "Welcome", desc: "Soft start in Spanish. How was your week? What do you want to tackle today?" },
+    { n: "02", mins: "10 min", title: "La pulpa", sub: "Warm-up", desc: "Quick recap of last lesson, a short conversation. You’re warmed up." },
+    { n: "03", mins: "20 min", title: "El gajo", sub: "The topic", desc: "The main course: grammar, vocabulary, or a real-life situation. Built around what you said you wanted." },
+    { n: "04", mins: "15 min", title: "El zumo", sub: "Practice", desc: "Roleplay, real audio, you doing the thing. The juicy part — where it actually sticks." },
+    { n: "05", mins: "5 min", title: "La semilla", sub: "Notes + plan", desc: "I send personal notes after every class. Optional homework — only if you want it." },
+  ],
+
   first_kicker: "Your first class",
   first_title: "A meeting, not a test.",
   first_letter_open: "Querido estudiante,",
@@ -331,6 +347,22 @@ const es: typeof en = {
   story_caption_2: "naranjos · Valencia",
   story_caption_3: "Zamora",
 
+  recipe_kicker: "Cómo va una clase",
+  recipe_title_1: "Una clase, capa",
+  recipe_title_2: "a capa.",
+  recipe_title_3: "",
+  recipe_intro:
+    "Toda clase sigue la misma receta — pero los ingredientes cambian según lo que necesites esa semana. Toca una capa para pelarla.",
+  recipe_card_title: "Receta · una clase",
+  recipe_card_meta: "PORCIONES: 1 · TIEMPO: 60 min",
+  recipe_layers: [
+    { n: "01", mins: "5 min", title: "La piel", sub: "Bienvenida", desc: "Empezamos suave en español. ¿Qué tal la semana? ¿Qué quieres trabajar hoy?" },
+    { n: "02", mins: "10 min", title: "La pulpa", sub: "Calentamiento", desc: "Repaso rápido de la última clase, una conversación corta. Ya estás caliente." },
+    { n: "03", mins: "20 min", title: "El gajo", sub: "El tema", desc: "El plato principal: gramática, vocabulario o una situación real. Construido sobre lo que pediste." },
+    { n: "04", mins: "15 min", title: "El zumo", sub: "Práctica", desc: "Roleplay, audio real, tú haciéndolo. La parte jugosa — donde de verdad se queda." },
+    { n: "05", mins: "5 min", title: "La semilla", sub: "Notas + plan", desc: "Te mando notas personales tras cada clase. Tarea opcional — solo si te apetece." },
+  ],
+
   first_kicker: "Tu primera clase",
   first_title: "Una toma de contacto, no un examen.",
   first_letter_open: "Querido estudiante,",
@@ -555,6 +587,22 @@ const de: typeof en = {
   story_caption_1: "la profe ✿",
   story_caption_2: "naranjos · Valencia",
   story_caption_3: "Zamora",
+
+  recipe_kicker: "Wie eine Stunde abläuft",
+  recipe_title_1: "Eine Stunde, Schicht",
+  recipe_title_2: "für Schicht.",
+  recipe_title_3: "",
+  recipe_intro:
+    "Jede Stunde folgt dem gleichen Rezept — aber die Zutaten ändern sich, je nachdem was du diese Woche brauchst. Tippe eine Schicht zum Schälen.",
+  recipe_card_title: "Rezept · eine Stunde",
+  recipe_card_meta: "PORTIONEN: 1 · ZEIT: 60 Min",
+  recipe_layers: [
+    { n: "01", mins: "5 Min", title: "La piel", sub: "Willkommen", desc: "Sanfter Start auf Spanisch. Wie war deine Woche? Was möchtest du heute angehen?" },
+    { n: "02", mins: "10 Min", title: "La pulpa", sub: "Aufwärmen", desc: "Schnelle Wiederholung der letzten Stunde, ein kurzes Gespräch. Du bist warm." },
+    { n: "03", mins: "20 Min", title: "El gajo", sub: "Das Thema", desc: "Der Hauptgang: Grammatik, Vokabeln oder eine reale Situation. Auf das gebaut, was du wolltest." },
+    { n: "04", mins: "15 Min", title: "El zumo", sub: "Übung", desc: "Rollenspiel, echtes Audio, du machst es. Der saftige Teil — wo es wirklich hängenbleibt." },
+    { n: "05", mins: "5 Min", title: "La semilla", sub: "Notizen + Plan", desc: "Nach jeder Stunde schicke ich persönliche Notizen. Hausaufgaben optional — nur wenn du magst." },
+  ],
 
   first_kicker: "Deine erste Stunde",
   first_title: "Ein Kennenlernen, kein Test.",

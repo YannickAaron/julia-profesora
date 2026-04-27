@@ -1,0 +1,11 @@
+{
+  "name": "Julia · Spanish lessons from Valencia",
+  "short_name": "Julia ELE",
+  "icons": [
+    { "src": "/favicon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/favicon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#e8762a",
+  "background_color": "#fbf6ec",
+  "display": "standalone"
+}

@@ -17,7 +17,7 @@ const en = {
   hero_pill_4: "from €40€ / hour",
 
   cred_kicker: "Why me",
-  cred_title_1: "Not just a native speaker —",
+  cred_title_1: "Not just a native speaker,",
   cred_title_2: "a qualified teacher with lots of experience.",
   cred_intro:
     "Native speakers can help you practice. But a trained teacher knows how to explain, guide you, and help you improve step by step.\nHere’s how I trained to become a professional Spanish teacher:",
@@ -34,7 +34,7 @@ const en = {
   ele_label: "ELE — Español como Lengua Extranjera",
   ele_title: "What does ELE mean?",
   ele_desc:
-    "ELE stands for Español como Lengua Extranjera — the official Spanish qualification for teaching Spanish as a foreign language. It's not a language proficiency certificate. It means Julia has been formally trained in language acquisition theory, communicative methodology, curriculum design for non-native speakers, and error analysis. Most native speakers don't have it. Julia does.",
+    "ELE stands for Español como Lengua Extranjera: the official Spanish qualification for teaching Spanish as a foreign language. It's not a language proficiency certificate. It means Julia has been formally trained in language acquisition theory, communicative methodology, curriculum design for non-native speakers, and error analysis. Most native speakers don't have it. Julia does.",
 
   cert_kicker: "Official certifications",
   cert_title_1: "Certified for the",
@@ -82,7 +82,7 @@ const en = {
     {
       tag: "B1",
       title: "Real conversations",
-      desc: "Past tenses, opinions, your daily life — in Spanish, not in your head.",
+      desc: "Past tenses, opinions, your daily life. In Spanish, not just in your head.",
     },
     {
       tag: "B2 · C1",
@@ -99,7 +99,7 @@ const en = {
   story_kicker: "A little about me",
   story_title: "My favorite part of teaching is meeting you.",
   story_p1:
-    "I grew up in Zamora — a small city in Castilla with a lot of history and very good wine — but I’ve lived in Valencia for years now and the city has completely won me over. My favorite part of being a Spanish teacher is the chance to meet so many people from different cultures. I love teaching the language, but I love hearing about your country, your traditions, and your food just as much.",
+    "I grew up in Zamora, a small city in Castilla with a lot of history and very good wine, and I’ve lived in Valencia for years now. The city has completely won me over. My favorite part of being a Spanish teacher is the chance to meet so many people from different cultures. I love teaching the language, but I love hearing about your country, your traditions, and your food just as much.",
   story_p2:
     "That’s why my classes aren’t verb photocopies. They’re conversations about your routines, your hobbies, and your experiences. Spanish becomes the way we get to know each other.",
   story_caption_1: "la profe ✿",
@@ -111,14 +111,14 @@ const en = {
   recipe_title_2: "layer by layer.",
   recipe_title_3: "",
   recipe_intro:
-    "Here's what a typical class looks like — the structure stays, the content adapts to you. Tap a layer to peel it back.",
+    "Here's what a typical class looks like: the structure stays, the content adapts to you. Tap a layer to peel it back.",
   recipe_card_title: "Receta · una clase",
   recipe_card_meta: "PORCIONES: 1 · TIEMPO: 60 min",
   recipe_layers: [
     { n: "01", mins: "5 min", title: "La piel", sub: "Welcome", desc: "Soft start in Spanish. How was your week? What do you want to tackle today?" },
     { n: "02", mins: "10 min", title: "La pulpa", sub: "Warm-up", desc: "Quick recap of last lesson, a short conversation. You’re warmed up." },
     { n: "03", mins: "20 min", title: "El gajo", sub: "The topic", desc: "The main course: grammar, vocabulary, or a real-life situation. Built around what you said you wanted." },
-    { n: "04", mins: "15 min", title: "El zumo", sub: "Practice", desc: "Exercises, drills, writing — you putting it into practice. The juicy part — where it actually sticks." },
+    { n: "04", mins: "15 min", title: "El zumo", sub: "Practice", desc: "Exercises, drills, writing: you putting it into practice. The juicy part, where it actually sticks." },
     { n: "05", mins: "5 min", title: "La semilla", sub: "Notes + recap", desc: "Quick recap of what we covered. I send you the class notes afterwards so you always have something to look back on." },
   ],
 
@@ -126,7 +126,7 @@ const en = {
   first_title: "A meeting, not a test.",
   first_letter_open: "Querido estudiante,",
   first_letter_body:
-    "Don’t worry about your first class — at all. I’ll ask you a few questions to get a feel for where you’re starting, and from there we plan together. Never opened a Spanish book before? Perfect. We start with survival Spanish.\n\nThe class is mostly communicative. Spanish is our working language. We adapt the materials to what you actually care about — that doesn’t mean we skip grammar (it matters!), it means grammar shows up where it’s useful.\n\nClasses are conversations about your life, not photocopies of verbs. See you soon.",
+    "Don’t worry about your first class. Not at all. I’ll ask you a few questions to get a feel for where you’re starting, and from there we plan together. Never opened a Spanish book before? Perfect. We start with survival Spanish.\n\nThe class is mostly communicative. Spanish is our working language. We adapt the materials to what you actually care about. That doesn’t mean we skip grammar (it matters!), it means grammar shows up where it’s useful.\n\nClasses are conversations about your life, not photocopies of verbs. See you soon.",
   first_letter_sign: "— Julia ✿",
 
   pricing_kicker: "Pricing",
@@ -169,12 +169,12 @@ const en = {
   faq_title: "Things people ask me.",
   faq: [
     {
-      q: "I’ve never studied Spanish — is that okay?",
-      a: "Completely. We start with survival Spanish — greetings, ordering food, getting around. By the end of the first month you’ll be having short conversations.",
+      q: "I’ve never studied Spanish, is that okay?",
+      a: "Completely. We start with survival Spanish: greetings, ordering food, getting around. By the end of the first month you’ll be having short conversations.",
     },
     {
       q: "How long is a class?",
-      a: "Standard classes are 60 minutes. We can also do 45 or 90 if that fits better — just tell me.",
+      a: "Standard classes are 60 minutes. We can also do 45 or 90 if that fits better. Just let me know.",
     },
     {
       q: "What platform do you use?",
@@ -182,7 +182,7 @@ const en = {
     },
     {
       q: "Can we focus on conversation only?",
-      a: "Yes — but I’ll sneak grammar in where it helps. You can speak fluently and still know why a sentence works.",
+      a: "Yes, but I’ll sneak grammar in where it helps. You can speak fluently and still know why a sentence works.",
     },
     {
       q: "Do you prepare for DELE / SIELE?",
@@ -238,7 +238,7 @@ const en = {
   bk_confirm: "Confirm booking",
   bk_disclaimer: "You won’t be charged. I’ll email a confirmation with the call link.",
   bk_done_title: "¡Hecho!",
-  bk_done_sub: "Talk soon — I’ll send a confirmation email shortly.",
+  bk_done_sub: "Talk soon! I’ll send a confirmation email shortly.",
 };
 
 const es: typeof en = {
@@ -251,14 +251,14 @@ const es: typeof en = {
   hero_title_2: "¿Aprendemos español",
   hero_title_3: "juntos?",
   hero_sub:
-    "Soy profesora de español certificada y con experiencia — no solo nativa. Clases privadas para todos los niveles, preparación de exámenes y tutorías. Conversaciones como un café con una amiga, pero con gramática que se queda.",
+    "Soy profesora de español certificada y con experiencia, no solo nativa. Clases privadas para todos los niveles, preparación de exámenes y tutorías. Conversaciones como un café con una amiga, pero con gramática que se queda.",
   hero_pill_1: "+4 años enseñando",
   hero_pill_2: "A1 — C1",
   hero_pill_3: "DELE / SIELE",
   hero_pill_4: "desde 40€ / hora",
 
   cred_kicker: "Por qué yo",
-  cred_title_1: "No solo soy nativa —",
+  cred_title_1: "No solo soy nativa,",
   cred_title_2: "una profe cualificada y con mucha experiencia.",
   cred_intro:
     "Un nativo puede ayudarte a practicar. Pero una profesora formada sabe cómo explicar, guiarte y ayudarte a mejorar paso a paso.\nAsí me formé para ser profesora de español:",
@@ -275,7 +275,7 @@ const es: typeof en = {
   ele_label: "ELE — Español como Lengua Extranjera",
   ele_title: "¿Qué es el ELE?",
   ele_desc:
-    "ELE son las siglas de Español como Lengua Extranjera — la titulación oficial para enseñar español a extranjeros. No es un certificado de nivel de idioma. Significa que Julia ha sido formada específicamente en adquisición de lenguas, metodología comunicativa, diseño curricular para hablantes no nativos y análisis de errores. La mayoría de los nativos no lo tiene. Julia sí.",
+    "ELE son las siglas de Español como Lengua Extranjera: la titulación oficial para enseñar español a extranjeros. No es un certificado de nivel de idioma. Significa que Julia ha sido formada específicamente en adquisición de lenguas, metodología comunicativa, diseño curricular para hablantes no nativos y análisis de errores. La mayoría de los nativos no lo tiene. Julia sí.",
 
   cert_kicker: "Certificaciones oficiales",
   cert_title_1: "Preparada para los",
@@ -323,7 +323,7 @@ const es: typeof en = {
     {
       tag: "B1",
       title: "Conversaciones reales",
-      desc: "Pasados, opiniones, tu día a día — en español, no en tu cabeza.",
+      desc: "Pasados, opiniones, tu día a día, en español, no solo en tu cabeza.",
     },
     {
       tag: "B2 · C1",
@@ -340,7 +340,7 @@ const es: typeof en = {
   story_kicker: "Un poco sobre mí",
   story_title: "Mi parte favorita es conocerte.",
   story_p1:
-    "Soy de Zamora — una ciudad pequeña en Castilla con mucha historia y muy buen vino — pero llevo años viviendo en Valencia y la ciudad me ha conquistado del todo. Mi parte favorita de ser profesora de español es conocer a tantas personas de culturas diferentes. Me encanta enseñar la lengua, pero también conocer cómo es la vida en otros países, sus costumbres, tradiciones y gastronomía.",
+    "Soy de Zamora, una ciudad pequeña en Castilla con mucha historia y muy buen vino, y llevo años viviendo en Valencia. La ciudad me ha conquistado del todo. Mi parte favorita de ser profesora de español es conocer a tantas personas de culturas diferentes. Me encanta enseñar la lengua, pero también conocer cómo es la vida en otros países, sus costumbres, tradiciones y gastronomía.",
   story_p2:
     "Por eso mis clases no son fotocopias de verbos. Son conversaciones sobre tus rutinas, tus aficiones y tus experiencias. El español se convierte en la forma de conocernos.",
   story_caption_1: "la profe ✿",
@@ -352,14 +352,14 @@ const es: typeof en = {
   recipe_title_2: "a capa.",
   recipe_title_3: "",
   recipe_intro:
-    "Así es una clase típica — la estructura no cambia, el contenido se adapta a ti. Toca una capa para pelarla.",
+    "Así es una clase típica: la estructura no cambia, el contenido se adapta a ti. Toca una capa para pelarla.",
   recipe_card_title: "Receta · una clase",
   recipe_card_meta: "PORCIONES: 1 · TIEMPO: 60 min",
   recipe_layers: [
     { n: "01", mins: "5 min", title: "La piel", sub: "Bienvenida", desc: "Empezamos suave en español. ¿Qué tal la semana? ¿Qué quieres trabajar hoy?" },
     { n: "02", mins: "10 min", title: "La pulpa", sub: "Calentamiento", desc: "Repaso rápido de la última clase, una conversación corta. Ya estás caliente." },
     { n: "03", mins: "20 min", title: "El gajo", sub: "El tema", desc: "El plato principal: gramática, vocabulario o una situación real. Construido sobre lo que pediste." },
-    { n: "04", mins: "15 min", title: "El zumo", sub: "Práctica", desc: "Ejercicios, escritura, producción — tú poniendo en práctica lo aprendido. La parte jugosa — donde de verdad se queda." },
+    { n: "04", mins: "15 min", title: "El zumo", sub: "Práctica", desc: "Ejercicios, escritura, producción: tú poniendo en práctica lo aprendido. La parte jugosa, donde de verdad se queda." },
     { n: "05", mins: "5 min", title: "La semilla", sub: "Notas + repaso", desc: "Repaso rápido de lo que hemos visto. Te mando los apuntes de clase para que siempre tengas donde consultar." },
   ],
 
@@ -367,7 +367,7 @@ const es: typeof en = {
   first_title: "Una toma de contacto, no un examen.",
   first_letter_open: "Querido estudiante,",
   first_letter_body:
-    "No te preocupes por tu primera clase — para nada. Te haré unas preguntas para ver tu nivel inicial, y desde ahí planeamos juntos. ¿Nunca has abierto un libro de español? Perfecto. Empezamos con español de supervivencia.\n\nLa clase es mayormente comunicativa. El español es nuestra lengua vehicular. Adaptamos los materiales a lo que te interesa — esto no significa saltarnos la gramática (¡es igual de importante!), significa que la gramática aparece donde es útil.\n\nLas clases son conversaciones sobre tu vida, no fotocopias de verbos. ¡Nos vemos pronto!",
+    "No te preocupes por tu primera clase. Para nada. Te haré unas preguntas para ver tu nivel inicial, y desde ahí planeamos juntos. ¿Nunca has abierto un libro de español? Perfecto. Empezamos con español de supervivencia.\n\nLa clase es mayormente comunicativa. El español es nuestra lengua vehicular. Adaptamos los materiales a lo que te interesa, lo que no significa saltarnos la gramática (¡es igual de importante!), sino que la gramática aparece donde es útil.\n\nLas clases son conversaciones sobre tu vida, no fotocopias de verbos. ¡Nos vemos pronto!",
   first_letter_sign: "— Julia ✿",
 
   pricing_kicker: "Precios",
@@ -411,7 +411,7 @@ const es: typeof en = {
   faq: [
     {
       q: "Nunca he estudiado español, ¿pasa algo?",
-      a: "Para nada. Empezamos con español de supervivencia — saludos, pedir comida, moverte. Al final del primer mes tendrás conversaciones cortas.",
+      a: "Para nada. Empezamos con español de supervivencia: saludos, pedir comida, moverte. Al final del primer mes tendrás conversaciones cortas.",
     },
     {
       q: "¿Cuánto dura una clase?",
@@ -423,7 +423,7 @@ const es: typeof en = {
     },
     {
       q: "¿Solo conversación?",
-      a: "Claro — pero meteré gramática donde ayude. Hablar con fluidez y entender por qué funciona la frase.",
+      a: "Claro, pero meteré gramática donde ayude. Hablar con fluidez y entender por qué funciona la frase.",
     },
     {
       q: "¿Preparas DELE / SIELE?",
@@ -479,7 +479,7 @@ const es: typeof en = {
   bk_confirm: "Confirmar reserva",
   bk_disclaimer: "No se cobra nada. Te envío email con el enlace de la llamada.",
   bk_done_title: "¡Hecho!",
-  bk_done_sub: "Hablamos pronto — te mando un email de confirmación enseguida.",
+  bk_done_sub: "Hablamos pronto. Te mando un email de confirmación enseguida.",
 };
 
 const de: typeof en = {
@@ -492,14 +492,14 @@ const de: typeof en = {
   hero_title_2: "Lernen wir Spanisch",
   hero_title_3: "zusammen?",
   hero_sub:
-    "Ich bin zertifizierte Spanischlehrerin mit Erfahrung — nicht nur Muttersprachlerin. Private Stunden für jedes Niveau, Prüfungsvorbereitung & Nachhilfe. Gespräche wie ein café con una amiga, aber mit Grammatik, die hängenbleibt.",
+    "Ich bin zertifizierte Spanischlehrerin mit Erfahrung, nicht nur Muttersprachlerin. Private Stunden für jedes Niveau, Prüfungsvorbereitung & Nachhilfe. Gespräche wie ein café con una amiga, aber mit Grammatik, die hängenbleibt.",
   hero_pill_1: "4+ Jahre Erfahrung",
   hero_pill_2: "A1 — C1",
   hero_pill_3: "DELE / SIELE",
   hero_pill_4: "ab 40€ / Stunde",
 
   cred_kicker: "Warum ich",
-  cred_title_1: "Nicht nur Muttersprachlerin —",
+  cred_title_1: "Nicht nur Muttersprachlerin,",
   cred_title_2: "eine qualifizierte Lehrerin mit viel Erfahrung.",
   cred_intro:
     "Muttersprachler können beim Üben helfen. Aber eine ausgebildete Lehrerin weiß, wie man erklärt, begleitet und Schritt für Schritt voranbringt.\nSo habe ich mich zur professionellen Spanischlehrerin ausgebildet:",
@@ -516,7 +516,7 @@ const de: typeof en = {
   ele_label: "ELE — Español como Lengua Extranjera",
   ele_title: "Was bedeutet ELE?",
   ele_desc:
-    "ELE steht für Español como Lengua Extranjera — die offizielle spanische Qualifikation, um Spanisch als Fremdsprache zu unterrichten. Es ist kein Sprachniveau-Zertifikat. Es bedeutet, dass Julia gezielt ausgebildet wurde in Spracherwerb-Theorie, kommunikativer Methodik, Lehrplanentwicklung für Nicht-Muttersprachler und Fehleranalyse. Die meisten Muttersprachler haben das nicht. Julia schon.",
+    "ELE steht für Español como Lengua Extranjera: die offizielle spanische Qualifikation, um Spanisch als Fremdsprache zu unterrichten. Es ist kein Sprachniveau-Zertifikat. Es bedeutet, dass Julia gezielt ausgebildet wurde in Spracherwerb-Theorie, kommunikativer Methodik, Lehrplanentwicklung für Nicht-Muttersprachler und Fehleranalyse. Die meisten Muttersprachler haben das nicht. Julia schon.",
 
   cert_kicker: "Offizielle Zertifizierungen",
   cert_title_1: "Vorbereitet für die",
@@ -552,9 +552,9 @@ const de: typeof en = {
 
   levels_kicker: "Woran wir arbeiten",
   levels_title_1: "Vom ersten",
-  levels_title_2: "Hola",
+  levels_title_2: "hola",
   levels_title_3: "bis zu fließenden Gesprächen.",
-  levels_intro: "Jedes Niveau. Kommunikation zuerst — aber Grammatik kommt nicht zu kurz.",
+  levels_intro: "Jedes Niveau. Kommunikation zuerst, Grammatik kommt dabei nicht zu kurz.",
   levels: [
     {
       tag: "A1 · A2",
@@ -564,7 +564,7 @@ const de: typeof en = {
     {
       tag: "B1",
       title: "Echte Gespräche",
-      desc: "Vergangenheiten, Meinungen, dein Alltag — auf Spanisch, nicht im Kopf.",
+      desc: "Vergangenheiten, Meinungen, dein Alltag, auf Spanisch, nicht nur im Kopf.",
     },
     {
       tag: "B2 · C1",
@@ -581,7 +581,7 @@ const de: typeof en = {
   story_kicker: "Ein bisschen über mich",
   story_title: "Mein Lieblingsteil ist, dich kennenzulernen.",
   story_p1:
-    "Ich komme aus Zamora — einer kleinen Stadt in Kastilien mit viel Geschichte und sehr gutem Wein — aber ich lebe seit Jahren in Valencia, und die Stadt hat mich vollständig gewonnen. Mein Lieblingsteil am Spanischunterrichten ist die Chance, so viele Menschen aus verschiedenen Kulturen kennenzulernen. Ich liebe es, die Sprache zu lehren — aber genauso gerne höre ich von deinem Land, deinen Traditionen und deinem Essen.",
+    "Ich komme aus Zamora, einer kleinen Stadt in Kastilien mit viel Geschichte und sehr gutem Wein, und lebe seit Jahren in Valencia. Die Stadt hat mich vollständig gewonnen. Mein Lieblingsteil am Spanischunterrichten ist die Chance, so viele Menschen aus verschiedenen Kulturen kennenzulernen. Ich liebe es, die Sprache zu lehren, aber genauso gerne höre ich von deinem Land, deinen Traditionen und deinem Essen.",
   story_p2:
     "Deshalb sind meine Stunden keine Verb-Kopien. Es sind Gespräche über deine Routinen, Hobbys und Erfahrungen. Spanisch wird zur Art, wie wir uns kennenlernen.",
   story_caption_1: "la profe ✿",
@@ -593,22 +593,22 @@ const de: typeof en = {
   recipe_title_2: "für Schicht.",
   recipe_title_3: "",
   recipe_intro:
-    "So sieht eine typische Stunde aus — die Struktur bleibt, der Inhalt passt sich dir an. Tippe eine Schicht zum Schälen.",
-  recipe_card_title: "Rezept · eine Stunde",
-  recipe_card_meta: "PORTIONEN: 1 · ZEIT: 60 Min",
+    "So sieht eine typische Stunde aus: die Struktur bleibt, der Inhalt passt sich dir an. Tippe eine Schicht zum Schälen.",
+  recipe_card_title: "Receta · una clase",
+  recipe_card_meta: "PORCIONES: 1 · TIEMPO: 60 min",
   recipe_layers: [
     { n: "01", mins: "5 Min", title: "La piel", sub: "Willkommen", desc: "Sanfter Start auf Spanisch. Wie war deine Woche? Was möchtest du heute angehen?" },
     { n: "02", mins: "10 Min", title: "La pulpa", sub: "Aufwärmen", desc: "Schnelle Wiederholung der letzten Stunde, ein kurzes Gespräch. Du bist warm." },
     { n: "03", mins: "20 Min", title: "El gajo", sub: "Das Thema", desc: "Der Hauptgang: Grammatik, Vokabeln oder eine reale Situation. Auf das gebaut, was du wolltest." },
-    { n: "04", mins: "15 Min", title: "El zumo", sub: "Übung", desc: "Übungen, Schreiben, Produktion — du setzt das Gelernte in die Praxis um. Der saftige Teil — wo es wirklich hängenbleibt." },
+    { n: "04", mins: "15 Min", title: "El zumo", sub: "Übung", desc: "Übungen, Schreiben, Produktion: du setzt das Gelernte in die Praxis um. Der saftige Teil, wo es wirklich hängenbleibt." },
     { n: "05", mins: "5 Min", title: "La semilla", sub: "Notizen + Rückblick", desc: "Kurzer Rückblick auf das Besprochene. Ich schicke dir die Unterrichtsmitschrift, damit du immer nachlesen kannst." },
   ],
 
   first_kicker: "Deine erste Stunde",
   first_title: "Ein Kennenlernen, kein Test.",
-  first_letter_open: "Lieber Schüler,",
+  first_letter_open: "Querido estudiante,",
   first_letter_body:
-    "Mach dir keine Sorgen wegen der ersten Stunde — wirklich nicht. Ich stelle ein paar Fragen, um dein Niveau zu erfassen, und ab da planen wir zusammen. Noch nie ein Spanischbuch geöffnet? Perfekt. Wir starten mit Überlebens-Spanisch.\n\nDer Unterricht ist hauptsächlich kommunikativ. Spanisch ist unsere Arbeitssprache. Wir passen die Materialien an das an, was dich interessiert — das heißt nicht, dass wir Grammatik überspringen (sie ist genauso wichtig!), sondern dass sie da auftaucht, wo sie nützlich ist.\n\nStunden sind Gespräche über dein Leben, keine Verb-Kopien. Bis bald!",
+    "Mach dir keine Sorgen wegen der ersten Stunde. Wirklich nicht. Ich stelle ein paar Fragen, um dein Niveau zu erfassen, und ab da planen wir zusammen. Noch nie ein Spanischbuch geöffnet? Perfekt. Wir starten mit Überlebens-Spanisch.\n\nDer Unterricht ist hauptsächlich kommunikativ. Spanisch ist unsere Arbeitssprache. Wir passen die Materialien an das an, was dich interessiert, das heißt nicht, dass wir Grammatik überspringen (sie ist genauso wichtig!), sondern dass sie da auftaucht, wo sie nützlich ist.\n\nStunden sind Gespräche über dein Leben, keine Verb-Kopien. Bis bald!",
   first_letter_sign: "— Julia ✿",
 
   pricing_kicker: "Preise",
@@ -652,12 +652,12 @@ const de: typeof en = {
   faq_title: "Was Leute mich fragen.",
   faq: [
     {
-      q: "Ich hab noch nie Spanisch gelernt — geht das?",
-      a: "Klar. Wir starten mit Überlebens-Spanisch — Begrüßung, Essen bestellen, sich zurechtfinden. Nach dem ersten Monat führst du kurze Gespräche.",
+      q: "Ich hab noch nie Spanisch gelernt, geht das?",
+      a: "Klar. Wir starten mit Überlebens-Spanisch: Begrüßung, Essen bestellen, sich zurechtfinden. Nach dem ersten Monat führst du kurze Gespräche.",
     },
     {
       q: "Wie lange dauert eine Stunde?",
-      a: "Standard sind 60 Minuten. 45 oder 90 geht auch — sag einfach Bescheid.",
+      a: "Standard sind 60 Minuten. 45 oder 90 geht auch, sag einfach Bescheid.",
     },
     {
       q: "Welche Plattform?",
@@ -665,7 +665,7 @@ const de: typeof en = {
     },
     {
       q: "Nur Konversation?",
-      a: "Ja — aber ich schmuggle Grammatik rein, wo es hilft. Flüssig sprechen und verstehen, warum ein Satz funktioniert.",
+      a: "Ja, aber ich schmuggle Grammatik rein, wo es hilft. Flüssig sprechen und verstehen, warum ein Satz funktioniert.",
     },
     {
       q: "Bereitest du auf DELE / SIELE vor?",
@@ -720,8 +720,8 @@ const de: typeof en = {
   bk_calendar: "Slot wählen",
   bk_confirm: "Buchung bestätigen",
   bk_disclaimer: "Kostenlos. Ich schicke eine Bestätigungs-E-Mail mit dem Link.",
-  bk_done_title: "Fertig!",
-  bk_done_sub: "Bis bald — ich schicke gleich eine Bestätigungs-E-Mail.",
+  bk_done_title: "¡Hecho!",
+  bk_done_sub: "Bis bald! Ich schicke gleich eine Bestätigungs-E-Mail.",
 };
 
 export const I18N: Record<Lang, typeof en> = { en, es, de };

@@ -600,6 +600,33 @@ section.bk-dark .section-title { color: var(--paper); }
 }
 .price-bullets span::before { content: '✓ '; color: var(--orange); font-weight: 700; }
 
+.price-stack { display: flex; flex-direction: column; gap: 18px; margin-top: 20px; }
+.price-label {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 6px;
+}
+.price-card-featured {
+  border-color: var(--orange);
+  box-shadow: 6px 6px 0 var(--orange);
+}
+.price-card-featured .price-label { color: var(--orange-deep); }
+.price-whatsapp-note {
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin: 4px 4px 0;
+  line-height: 1.55;
+}
+.price-whatsapp-note a {
+  color: var(--orange-deep);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .book-cta-card {
   border: 1.5px solid var(--line);
   border-radius: 6px;

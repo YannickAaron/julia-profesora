@@ -1423,3 +1423,91 @@ footer {
   .os-svg { max-width: 220px; }
   .orange-stack { padding: 10px 10px 46px; }
 }
+
+/* 404 page */
+.nf-page {
+  min-height: 100vh;
+  background: var(--paper);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 24px;
+  position: relative;
+  overflow: hidden;
+}
+.nf-stage {
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+  gap: 60px;
+  align-items: center;
+  max-width: 920px;
+  width: 100%;
+}
+.nf-orange {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: drop-shadow(4px 6px 0 rgba(31,26,20,0.12));
+  animation: nf-bob 3.6s ease-in-out infinite;
+}
+.nf-fruit {
+  transform-origin: 0 0;
+  animation: nf-spin 14s linear infinite;
+}
+.nf-leaf {
+  transform-origin: 0 -88px;
+  animation: nf-leaf-sway 2.4s ease-in-out infinite;
+}
+.nf-shadow {
+  transform-origin: center;
+  animation: nf-shadow-pulse 3.6s ease-in-out infinite;
+}
+.nf-orange text {
+  animation: nf-text-pulse 3.6s ease-in-out infinite;
+}
+@keyframes nf-bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+@keyframes nf-spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes nf-leaf-sway {
+  0%, 100% { transform: rotate(-4deg); }
+  50% { transform: rotate(8deg); }
+}
+@keyframes nf-shadow-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.5; }
+  50% { transform: scale(0.78); opacity: 0.35; }
+}
+@keyframes nf-text-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.04); }
+}
+.nf-text .section-kicker { margin-bottom: 14px; }
+.nf-title {
+  font-family: var(--serif);
+  font-size: clamp(40px, 6vw, 64px);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin: 0 0 14px;
+}
+.nf-sub {
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 0 0 26px;
+  max-width: 460px;
+}
+.nf-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+
+@media (max-width: 720px) {
+  .nf-stage {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    text-align: center;
+  }
+  .nf-orange { max-width: 240px; margin: 0 auto; }
+  .nf-sub { margin-left: auto; margin-right: auto; }
+  .nf-actions { justify-content: center; }
+}

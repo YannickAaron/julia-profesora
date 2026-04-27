@@ -1,6 +1,6 @@
 import { LogoLockup } from '../LogoLockup';
 import { DeadLink } from '../DeadLink';
-import { WHATSAPP_URL } from '../../config';
+import { WHATSAPP_URL, EMAIL } from '../../config';
 import type { T } from '../../i18n';
 
 export function Footer({ t }: { t: T }) {
@@ -18,25 +18,10 @@ export function Footer({ t }: { t: T }) {
           </div>
           <div>
             <h4>{t.footer_contact}</h4>
-            {/* TODO: verify email address hola@juliaprofesora.com is correct */}
-            <DeadLink
-              href="mailto:hola@juliaprofesora.com"
-              todo="Verify this email address is correct"
-            >
-              hola@juliaprofesora.com
-            </DeadLink>
+            <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
               WhatsApp →
             </a>
-          </div>
-          <div>
-            <h4>{t.footer_follow}</h4>
-            <DeadLink href="#" todo="Add real Instagram URL">
-              Instagram
-            </DeadLink>
-            <DeadLink href="#" todo="Add real TikTok URL">
-              TikTok
-            </DeadLink>
           </div>
           <div>
             <h4>{t.footer_legal}</h4>

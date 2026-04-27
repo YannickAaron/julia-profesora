@@ -10,7 +10,7 @@ const en = {
   hero_title_2: "Let’s learn Spanish",
   hero_title_3: "together.",
   hero_sub:
-    "I’m a real qualified teacher — not just a native speaker. Private classes from A1 to C1, exam prep & tutoring. Conversations that feel like coffee with a friend, but with grammar that actually sticks.",
+    "I’m a certified Spanish teacher with experience, not just a native speaker. Private classes for every level, exam prep & tutoring. Conversations that feel like coffee with a friend, but with grammar that actually sticks.",
   hero_pill_1: "4+ years teaching",
   hero_pill_2: "A1 — C1",
   hero_pill_3: "DELE / SIELE",
@@ -18,9 +18,9 @@ const en = {
 
   cred_kicker: "Why me",
   cred_title_1: "Not just a native speaker —",
-  cred_title_2: "a real teacher.",
+  cred_title_2: "a qualified teacher with lots of experience.",
   cred_intro:
-    "Anyone who grew up in Madrid speaks Spanish. Teaching it well is something else. Here’s how I trained for it.",
+    "Native speakers can help you practice. But a trained teacher knows how to explain, guide you, and help you improve step by step.\nHere’s how I trained to become a professional Spanish teacher:",
   cred_1_label: "01 / DEGREE",
   cred_1_t: "BA in Translation & Interpreting",
   cred_1_d: "Spanish ↔ English, French. Three languages, deep grammar.",
@@ -111,15 +111,15 @@ const en = {
   recipe_title_2: "layer by layer.",
   recipe_title_3: "",
   recipe_intro:
-    "Every class follows the same recipe — but the ingredients change to fit what you need that week. Tap a layer to peel it back.",
+    "Here's what a typical class looks like — the structure stays, the content adapts to you. Tap a layer to peel it back.",
   recipe_card_title: "Receta · una clase",
   recipe_card_meta: "PORCIONES: 1 · TIEMPO: 60 min",
   recipe_layers: [
     { n: "01", mins: "5 min", title: "La piel", sub: "Welcome", desc: "Soft start in Spanish. How was your week? What do you want to tackle today?" },
     { n: "02", mins: "10 min", title: "La pulpa", sub: "Warm-up", desc: "Quick recap of last lesson, a short conversation. You’re warmed up." },
     { n: "03", mins: "20 min", title: "El gajo", sub: "The topic", desc: "The main course: grammar, vocabulary, or a real-life situation. Built around what you said you wanted." },
-    { n: "04", mins: "15 min", title: "El zumo", sub: "Practice", desc: "Roleplay, real audio, you doing the thing. The juicy part — where it actually sticks." },
-    { n: "05", mins: "5 min", title: "La semilla", sub: "Notes + plan", desc: "I send personal notes after every class. Optional homework — only if you want it." },
+    { n: "04", mins: "15 min", title: "El zumo", sub: "Practice", desc: "Exercises, drills, writing — you putting it into practice. The juicy part — where it actually sticks." },
+    { n: "05", mins: "5 min", title: "La semilla", sub: "Notes + recap", desc: "Quick recap of what we covered. I send you the class notes afterwards so you always have something to look back on." },
   ],
 
   first_kicker: "Your first class",
@@ -251,7 +251,7 @@ const es: typeof en = {
   hero_title_2: "¿Aprendemos español",
   hero_title_3: "juntos?",
   hero_sub:
-    "Soy profesora cualificada de verdad — no solo nativa. Clases privadas de A1 a C1, preparación de exámenes y tutorías. Conversaciones como un café con un amigo, pero con gramática que se queda.",
+    "Soy profesora de español certificada y con experiencia — no solo nativa. Clases privadas para todos los niveles, preparación de exámenes y tutorías. Conversaciones como un café con una amiga, pero con gramática que se queda.",
   hero_pill_1: "+4 años enseñando",
   hero_pill_2: "A1 — C1",
   hero_pill_3: "DELE / SIELE",
@@ -259,9 +259,9 @@ const es: typeof en = {
 
   cred_kicker: "Por qué yo",
   cred_title_1: "No solo soy nativa —",
-  cred_title_2: "soy profesora de verdad.",
+  cred_title_2: "una profe cualificada y con mucha experiencia.",
   cred_intro:
-    "Cualquiera que crece en Madrid habla español. Enseñarlo bien es otra cosa. Aquí te cuento cómo me he formado.",
+    "Un nativo puede ayudarte a practicar. Pero una profesora formada sabe cómo explicar, guiarte y ayudarte a mejorar paso a paso.\nAsí me formé para ser profesora de español:",
   cred_1_label: "01 / GRADO",
   cred_1_t: "Grado en Traducción e Interpretación",
   cred_1_d: "Español ↔ inglés, francés. Tres idiomas, gramática a fondo.",
@@ -352,15 +352,15 @@ const es: typeof en = {
   recipe_title_2: "a capa.",
   recipe_title_3: "",
   recipe_intro:
-    "Toda clase sigue la misma receta — pero los ingredientes cambian según lo que necesites esa semana. Toca una capa para pelarla.",
+    "Así es una clase típica — la estructura no cambia, el contenido se adapta a ti. Toca una capa para pelarla.",
   recipe_card_title: "Receta · una clase",
   recipe_card_meta: "PORCIONES: 1 · TIEMPO: 60 min",
   recipe_layers: [
     { n: "01", mins: "5 min", title: "La piel", sub: "Bienvenida", desc: "Empezamos suave en español. ¿Qué tal la semana? ¿Qué quieres trabajar hoy?" },
     { n: "02", mins: "10 min", title: "La pulpa", sub: "Calentamiento", desc: "Repaso rápido de la última clase, una conversación corta. Ya estás caliente." },
     { n: "03", mins: "20 min", title: "El gajo", sub: "El tema", desc: "El plato principal: gramática, vocabulario o una situación real. Construido sobre lo que pediste." },
-    { n: "04", mins: "15 min", title: "El zumo", sub: "Práctica", desc: "Roleplay, audio real, tú haciéndolo. La parte jugosa — donde de verdad se queda." },
-    { n: "05", mins: "5 min", title: "La semilla", sub: "Notas + plan", desc: "Te mando notas personales tras cada clase. Tarea opcional — solo si te apetece." },
+    { n: "04", mins: "15 min", title: "El zumo", sub: "Práctica", desc: "Ejercicios, escritura, producción — tú poniendo en práctica lo aprendido. La parte jugosa — donde de verdad se queda." },
+    { n: "05", mins: "5 min", title: "La semilla", sub: "Notas + repaso", desc: "Repaso rápido de lo que hemos visto. Te mando los apuntes de clase para que siempre tengas donde consultar." },
   ],
 
   first_kicker: "Tu primera clase",
@@ -492,7 +492,7 @@ const de: typeof en = {
   hero_title_2: "Lernen wir Spanisch",
   hero_title_3: "zusammen?",
   hero_sub:
-    "Ich bin echte qualifizierte Lehrerin — nicht nur Muttersprachlerin. Einzelunterricht von A1 bis C1, Prüfungsvorbereitung & Nachhilfe. Gespräche wie ein Kaffee mit einer Freundin, aber mit Grammatik, die hängenbleibt.",
+    "Ich bin zertifizierte Spanischlehrerin mit Erfahrung — nicht nur Muttersprachlerin. Private Stunden für jedes Niveau, Prüfungsvorbereitung & Nachhilfe. Gespräche wie ein café con una amiga, aber mit Grammatik, die hängenbleibt.",
   hero_pill_1: "4+ Jahre Erfahrung",
   hero_pill_2: "A1 — C1",
   hero_pill_3: "DELE / SIELE",
@@ -500,9 +500,9 @@ const de: typeof en = {
 
   cred_kicker: "Warum ich",
   cred_title_1: "Nicht nur Muttersprachlerin —",
-  cred_title_2: "echte Lehrerin.",
+  cred_title_2: "eine qualifizierte Lehrerin mit viel Erfahrung.",
   cred_intro:
-    "Wer in Madrid aufwächst, spricht Spanisch. Es gut zu unterrichten ist etwas anderes. So habe ich mich ausgebildet.",
+    "Muttersprachler können beim Üben helfen. Aber eine ausgebildete Lehrerin weiß, wie man erklärt, begleitet und Schritt für Schritt voranbringt.\nSo habe ich mich zur professionellen Spanischlehrerin ausgebildet:",
   cred_1_label: "01 / STUDIUM",
   cred_1_t: "BA Übersetzen & Dolmetschen",
   cred_1_d: "Spanisch ↔ Englisch, Französisch. Drei Sprachen, tiefe Grammatik.",
@@ -593,15 +593,15 @@ const de: typeof en = {
   recipe_title_2: "für Schicht.",
   recipe_title_3: "",
   recipe_intro:
-    "Jede Stunde folgt dem gleichen Rezept — aber die Zutaten ändern sich, je nachdem was du diese Woche brauchst. Tippe eine Schicht zum Schälen.",
+    "So sieht eine typische Stunde aus — die Struktur bleibt, der Inhalt passt sich dir an. Tippe eine Schicht zum Schälen.",
   recipe_card_title: "Rezept · eine Stunde",
   recipe_card_meta: "PORTIONEN: 1 · ZEIT: 60 Min",
   recipe_layers: [
     { n: "01", mins: "5 Min", title: "La piel", sub: "Willkommen", desc: "Sanfter Start auf Spanisch. Wie war deine Woche? Was möchtest du heute angehen?" },
     { n: "02", mins: "10 Min", title: "La pulpa", sub: "Aufwärmen", desc: "Schnelle Wiederholung der letzten Stunde, ein kurzes Gespräch. Du bist warm." },
     { n: "03", mins: "20 Min", title: "El gajo", sub: "Das Thema", desc: "Der Hauptgang: Grammatik, Vokabeln oder eine reale Situation. Auf das gebaut, was du wolltest." },
-    { n: "04", mins: "15 Min", title: "El zumo", sub: "Übung", desc: "Rollenspiel, echtes Audio, du machst es. Der saftige Teil — wo es wirklich hängenbleibt." },
-    { n: "05", mins: "5 Min", title: "La semilla", sub: "Notizen + Plan", desc: "Nach jeder Stunde schicke ich persönliche Notizen. Hausaufgaben optional — nur wenn du magst." },
+    { n: "04", mins: "15 Min", title: "El zumo", sub: "Übung", desc: "Übungen, Schreiben, Produktion — du setzt das Gelernte in die Praxis um. Der saftige Teil — wo es wirklich hängenbleibt." },
+    { n: "05", mins: "5 Min", title: "La semilla", sub: "Notizen + Rückblick", desc: "Kurzer Rückblick auf das Besprochene. Ich schicke dir die Unterrichtsmitschrift, damit du immer nachlesen kannst." },
   ],
 
   first_kicker: "Deine erste Stunde",

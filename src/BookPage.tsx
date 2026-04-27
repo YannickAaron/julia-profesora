@@ -1,7 +1,9 @@
 import { useState } from 'react';
-import { I18N, detectLang, setLang } from './i18n';
+import { useNavigate, useLocation } from 'react-router-dom';
+import { I18N, isLang } from './i18n';
 import type { Lang } from './i18n';
 import { Nav } from './components/Nav';
+import { Seo } from './components/Seo';
 import { Footer } from './components/sections/Footer';
 import { DeadLink } from './components/DeadLink';
 import { WHATSAPP_URL, EMAIL } from './config';
@@ -29,13 +31,20 @@ interface FormState {
   msg: string;
 }
 
-export default function BookPage() {
-  const [lang, setLangState] = useState<Lang>(() => detectLang());
+export default function BookPage({ lang }: { lang: Lang }) {
   const t = I18N[lang];
+  const navigate = useNavigate();
+  const location = useLocation();
 
   function onLang(l: Lang) {
-    setLangState(l);
-    setLang(l);
+    if (!isLang(l)) return;
+    try {
+      localStorage.setItem('julia_lang', l);
+    } catch {
+      // ignore
+    }
+    const rest = location.pathname.replace(/^\/(en|es|de)/, '');
+    navigate(`/${l}${rest || ''}`);
   }
 
   const [step, setStep] = useState(0);
@@ -60,6 +69,7 @@ export default function BookPage() {
   if (done) {
     return (
       <div className="bk-page">
+        <Seo lang={lang} page="book" />
         <Nav lang={lang} onLang={onLang} t={t} />
         <div className="wrap-narrow" style={{ paddingTop: 40 }}>
           <div className="bk-card success">
@@ -70,7 +80,7 @@ export default function BookPage() {
             <p style={{ fontSize: 17, color: 'var(--ink-soft)', maxWidth: 460, margin: '0 auto 24px' }}>
               {t.bk_done_sub}
             </p>
-            <a href="/" className="btn btn-primary">
+            <a href={`/${lang}`} className="btn btn-primary">
               {t.bk_back}
             </a>
           </div>
@@ -81,9 +91,10 @@ export default function BookPage() {
 
   return (
     <div className="bk-page">
+      <Seo lang={lang} page="book" />
       <Nav lang={lang} onLang={onLang} t={t} />
       <div className="wrap-narrow" style={{ paddingTop: 40 }}>
-        <a href="/" className="bk-back">
+        <a href={`/${lang}`} className="bk-back">
           {t.bk_back}
         </a>
         <h1 className="bk-title">

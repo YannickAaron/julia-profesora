@@ -16,21 +16,42 @@ export function Story({ t }: { t: T }) {
                 className="polaroid"
                 style={{ top: 0, left: 30, transform: 'rotate(-5deg)', width: 240 }}
               >
-                <img src={juliaImg} alt="Julia" />
+                <img
+                  src={juliaImg}
+                  alt="Julia, Spanish teacher in Valencia"
+                  width={1080}
+                  height={1080}
+                  loading="lazy"
+                  decoding="async"
+                />
                 <div className="polaroid-caption">{t.story_caption_1}</div>
               </div>
               <div
                 className="polaroid"
                 style={{ top: 80, right: 0, transform: 'rotate(4deg)', width: 220 }}
               >
-<img src={valenciaImg} alt="Valencia" />
+                <img
+                  src={valenciaImg}
+                  alt="Orange trees in Valencia, Spain"
+                  width={1536}
+                  height={1024}
+                  loading="lazy"
+                  decoding="async"
+                />
                 <div className="polaroid-caption">{t.story_caption_2}</div>
               </div>
               <div
                 className="polaroid"
                 style={{ bottom: 0, left: 80, transform: 'rotate(-2deg)', width: 220 }}
               >
-<img src={zamoraImg} alt="Zamora" />
+                <img
+                  src={zamoraImg}
+                  alt="Zamora, Castilla — Julia's hometown"
+                  width={1536}
+                  height={1024}
+                  loading="lazy"
+                  decoding="async"
+                />
                 <div className="polaroid-caption">{t.story_caption_3}</div>
               </div>
             </div>

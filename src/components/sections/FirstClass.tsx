@@ -1,7 +1,7 @@
 import { Reveal } from '../Reveal';
-import type { T } from '../../i18n';
+import type { Lang, T } from '../../i18n';
 
-export function FirstClass({ t }: { t: T }) {
+export function FirstClass({ lang, t }: { lang: Lang; t: T }) {
   return (
     <section className="bk bk-dark">
       <div className="wrap">
@@ -10,7 +10,7 @@ export function FirstClass({ t }: { t: T }) {
             <div className="section-kicker">{t.first_kicker}</div>
             <h2 className="section-title">{t.first_title}</h2>
             <p style={{ fontSize: 16, opacity: 0.75, maxWidth: 320 }}>{t.bk_intro}</p>
-            <a href="/book" className="btn btn-primary" style={{ marginTop: 20 }}>
+            <a href={`/${lang}/book`} className="btn btn-primary" style={{ marginTop: 20 }}>
               📅 {t.cta_free}
             </a>
           </Reveal>

@@ -47,8 +47,8 @@ export default function NotFound() {
           <h1 className="nf-title">{t.title}</h1>
           <p className="nf-sub">{t.sub}</p>
           <div className="nf-actions">
-            <a href="/" className="btn">{t.home}</a>
-            <a href="/book" className="btn btn-primary">{t.book}</a>
+            <a href={`/${lang}`} className="btn">{t.home}</a>
+            <a href={`/${lang}/book`} className="btn btn-primary">{t.book}</a>
           </div>
         </div>
       </div>

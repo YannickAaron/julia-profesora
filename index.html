@@ -3,7 +3,106 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Julia · Spanish lessons from Valencia</title>
+
+    <!-- Title, description, canonical, hreflang, og:*, twitter:* are emitted per-route by Helmet. -->
+    <title>Julia · Online Spanish Teacher</title>
+    <meta name="description" content="Certified ELE Spanish teacher from Valencia. Online 1-on-1 classes for all levels. Expert DELE, SIELE & CCSE exam preparation." />
+    <meta property="og:site_name" content="Julia · Spanish Teacher" />
+
+    <!-- Structured Data: Person -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Julia",
+      "jobTitle": "Certified Spanish Teacher (ELE)",
+      "description": "Certified ELE Spanish teacher from Valencia offering online 1-on-1 Spanish lessons for all levels and expert DELE, SIELE and CCSE exam preparation.",
+      "url": "https://www.julia-profesora.com/",
+      "email": "hola@julia-profesora.com",
+      "telephone": "+34690757346",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Valencia",
+        "addressCountry": "ES"
+      },
+      "knowsLanguage": ["es", "en", "fr"],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Master's in Teaching — ELE Specialization",
+          "description": "Master's degree with specialization in teaching Spanish as a Foreign Language (ELE)"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "BA in Translation & Interpreting",
+          "description": "Bachelor's degree in Translation and Interpreting — Spanish, English, French"
+        }
+      ],
+      "sameAs": []
+    }
+    </script>
+
+    <!-- Structured Data: Language Teaching Service -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "Julia · ELE — Spanish Teacher Online",
+      "description": "Online Spanish classes for all levels. DELE, SIELE and CCSE exam preparation by a certified ELE teacher from Valencia.",
+      "url": "https://www.julia-profesora.com/",
+      "email": "hola@julia-profesora.com",
+      "telephone": "+34690757346",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Valencia",
+        "addressCountry": "ES"
+      },
+      "priceRange": "€40–€60",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Spanish Classes & Exam Prep",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "1-on-1 Spanish Lessons Online",
+            "description": "Private online Spanish classes for all levels from A1 to C1. Communicative approach, tailored to your goals.",
+            "price": "40",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "DELE Exam Preparation",
+            "description": "Expert preparation for the official DELE Spanish diploma (A1–C2). Targeted practice, mock exams, and marking-criteria feedback.",
+            "price": "40",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "SIELE Exam Preparation",
+            "description": "Online preparation for the SIELE Spanish certification. Modular skills practice and full mock tests.",
+            "price": "40",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "CCSE Exam Preparation",
+            "description": "Preparation for the CCSE — the Spanish nationality knowledge test covering constitution, geography and culture.",
+            "price": "40",
+            "priceCurrency": "EUR"
+          },
+          {
+            "@type": "Offer",
+            "name": "Free 20-Minute Intro Call",
+            "description": "A free 20-minute introductory call to assess your level and find the right class plan together.",
+            "price": "0",
+            "priceCurrency": "EUR"
+          }
+        ]
+      }
+    }
+    </script>
+
+    <!--app-head-->
 
     <!-- Favicons -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -13,13 +112,26 @@
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#e8762a" />
 
-    <!-- Fonts -->
+    <!-- Fonts (non-blocking) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Fraunces:ital,wght@0,300..700;1,300..700&family=Work+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Fraunces:ital,wght@0,300..700;1,300..700&family=Work+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
     />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Fraunces:ital,wght@0,300..700;1,300..700&family=Work+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
   </head>
   <body>
     <div id="root"></div>

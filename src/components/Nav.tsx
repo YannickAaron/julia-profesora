@@ -12,7 +12,7 @@ export function Nav({ lang, onLang, t }: NavProps) {
   return (
     <nav className="nav">
       <div className="nav-inner">
-        <a href="/" className="logo">
+        <a href={`/${lang}`} className="logo">
           <span className="logo-mark">
             <Logo size={38} />
           </span>
@@ -26,7 +26,7 @@ export function Nav({ lang, onLang, t }: NavProps) {
         </div>
         <div className="nav-right">
           <LangSwitch lang={lang} onChange={onLang} />
-          <a href="/book" className="btn btn-primary btn-sm">
+          <a href={`/${lang}/book`} className="btn btn-primary btn-sm">
             {t.cta_book}
           </a>
         </div>

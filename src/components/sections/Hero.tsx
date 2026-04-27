@@ -3,10 +3,10 @@ import { FallingOranges } from '../FallingOranges';
 import { HandUnderline } from '../HandUnderline';
 import { Reveal } from '../Reveal';
 import { EleBadge } from '../EleBadge';
-import type { T } from '../../i18n';
+import type { Lang, T } from '../../i18n';
 
 // TODO: replace assets/julia.webp with a real photo of Julia
-export function Hero({ t }: { t: T }) {
+export function Hero({ lang, t }: { lang: Lang; t: T }) {
   return (
     <section className="hero">
       <FallingOranges count={5} />
@@ -23,7 +23,7 @@ export function Hero({ t }: { t: T }) {
             </h1>
             <p className="hero-sub">{t.hero_sub}</p>
             <div className="hero-actions">
-              <a href="/book" className="btn btn-primary btn-lg">
+              <a href={`/${lang}/book`} className="btn btn-primary btn-lg">
                 📅 {t.cta_free}
               </a>
               <a href="#classes" className="btn btn-ghost btn-lg">
@@ -42,7 +42,14 @@ export function Hero({ t }: { t: T }) {
             <div className="hero-photo-wrap">
               <div className="hero-photo">
                 <div className="polaroid" style={{ position: 'relative' }}>
-                  <img src={juliaImg} alt="Julia" />
+                  <img
+                    src={juliaImg}
+                    alt="Julia, certified online Spanish (ELE) teacher from Valencia"
+                    width={1080}
+                    height={1080}
+                    {...{ fetchpriority: 'high' }}
+                    decoding="async"
+                  />
                   <div className="polaroid-caption">{t.story_caption_1}</div>
                   <div className="polaroid-stamp" style={{ top: -16, left: -22 }}>
                     ★ +4 años ★

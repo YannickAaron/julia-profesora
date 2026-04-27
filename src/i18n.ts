@@ -1,6 +1,14 @@
 export type Lang = "en" | "es" | "de";
 
 const en = {
+  htmlLang: "en",
+  ogLocale: "en_GB",
+  meta_home_title: "Julia · Online Spanish Teacher | DELE, SIELE & CCSE Exam Prep",
+  meta_home_desc:
+    "Certified ELE Spanish teacher from Valencia. Online 1-on-1 classes for all levels (A1–C1). Expert DELE, SIELE & CCSE exam preparation. Free 20-min intro call.",
+  meta_book_title: "Book a Free 20-Min Spanish Intro Call · Julia",
+  meta_book_desc:
+    "Book a free 20-minute online intro call with Julia, certified ELE Spanish teacher. Find your level and plan your classes. No commitment.",
   nav: { about: "About", classes: "Classes", pricing: "Pricing", booking: "Book", faq: "FAQ" },
   cta_book: "Book a class",
   cta_free: "Free 20-min intro",
@@ -242,6 +250,14 @@ const en = {
 };
 
 const es: typeof en = {
+  htmlLang: "es",
+  ogLocale: "es_ES",
+  meta_home_title: "Julia · Profesora de Español Online | Preparación DELE, SIELE y CCSE",
+  meta_home_desc:
+    "Profesora de español certificada (ELE) desde Valencia. Clases online 1 a 1 para todos los niveles (A1–C1). Preparación experta de DELE, SIELE y CCSE. Charla gratis de 20 min.",
+  meta_book_title: "Reserva una charla gratis de 20 min con Julia · Profesora ELE",
+  meta_book_desc:
+    "Reserva una charla introductoria gratuita de 20 minutos online con Julia, profesora de español certificada. Vemos tu nivel y planeamos. Sin compromiso.",
   nav: { about: "Sobre mí", classes: "Clases", pricing: "Precios", booking: "Reservar", faq: "FAQ" },
   cta_book: "Reservar clase",
   cta_free: "Charla gratis 20min",
@@ -483,6 +499,14 @@ const es: typeof en = {
 };
 
 const de: typeof en = {
+  htmlLang: "de",
+  ogLocale: "de_DE",
+  meta_home_title: "Julia · Spanischlehrerin Online | DELE-, SIELE- und CCSE-Prüfungsvorbereitung",
+  meta_home_desc:
+    "Zertifizierte ELE-Spanischlehrerin aus Valencia. Online-Einzelunterricht für alle Niveaus (A1–C1). Gezielte DELE-, SIELE- und CCSE-Vorbereitung. Kostenloses 20-Min-Erstgespräch.",
+  meta_book_title: "Kostenloses 20-Min-Spanisch-Erstgespräch buchen · Julia",
+  meta_book_desc:
+    "Buche ein kostenloses 20-minütiges Online-Erstgespräch mit Julia, zertifizierter ELE-Spanischlehrerin. Niveau einschätzen, Plan machen. Unverbindlich.",
   nav: { about: "Über mich", classes: "Kurse", pricing: "Preise", booking: "Buchen", faq: "FAQ" },
   cta_book: "Stunde buchen",
   cta_free: "Gratis 20-Min-Gespräch",
@@ -725,22 +749,31 @@ const de: typeof en = {
 };
 
 export const I18N: Record<Lang, typeof en> = { en, es, de };
+export const LANGS: Lang[] = ["en", "es", "de"];
+export const DEFAULT_LANG: Lang = "en";
+export const SITE_URL = "https://www.julia-profesora.com";
 
 export type T = typeof en;
 
+export function isLang(v: unknown): v is Lang {
+  return typeof v === "string" && (LANGS as string[]).includes(v);
+}
+
 export function detectLang(): Lang {
+  if (typeof window === "undefined") return DEFAULT_LANG;
   try {
-    const saved = localStorage.getItem("julia_lang") as Lang | null;
-    if (saved && I18N[saved]) return saved;
-    const nav = (navigator.language ?? "en").slice(0, 2).toLowerCase() as Lang;
-    if (I18N[nav]) return nav;
+    const saved = localStorage.getItem("julia_lang");
+    if (isLang(saved)) return saved;
+    const nav = (navigator.language ?? "en").slice(0, 2).toLowerCase();
+    if (isLang(nav)) return nav;
   } catch {
     // ignore
   }
-  return "en";
+  return DEFAULT_LANG;
 }
 
 export function setLang(l: Lang): void {
+  if (typeof window === "undefined") return;
   try {
     localStorage.setItem("julia_lang", l);
   } catch {
